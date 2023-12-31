@@ -1,7 +1,6 @@
 import ham_chuong_8
 def bai1():
     ham_chuong_8.bai81()
-bai1()
 
 def bai2():
     ham_chuong_8.bai82()
