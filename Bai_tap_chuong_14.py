@@ -11,6 +11,7 @@ def bai1():
         print("không phù hợp điều kiện tồn tại tam giác")
     print("Hoàn thành xử lí ngoại lệ")
 
+
 def bai2():
     a = []
     m = 1
