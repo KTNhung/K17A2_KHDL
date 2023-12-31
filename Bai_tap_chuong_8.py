@@ -340,7 +340,6 @@ def bai819():
 
 
 
-
 #8.20
 def bai820():
     x = int(input("Hãy nhập x: "))
