@@ -25,6 +25,7 @@ def bai113():
     print(f"There is {find} in list of animals")
 
 
+
 def bai114():
     a = []
     a.append(int(input("Nhập giá trị: ")))
