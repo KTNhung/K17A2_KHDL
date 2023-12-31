@@ -302,7 +302,7 @@ def bai816():
     print(M)
 
 #8.17
-def bai816():
+def bai817():
     m = int(input("Nhập m = "))
     n = int(input("Nhập n = "))
     BCNN = 0 
@@ -358,53 +358,7 @@ def bai820():
 
 
     
-def bai():
-    a = []
-    a.append(int(input("Nhập giá trị: ")))
-    while True: 
-        print("Tiếp tục nhập giá trị ? 1: Có, 0: không")
-        n = int(input())
-        if n == 1: 
-            print(a.append(int(input("Nhập giá trị: "))))
-        elif n == 0:
-            break 
-    print("List:", a)
 
-    def songuyento(x):
-        if x < 2: 
-            return False
-        for i in range(2,x):
-            if x%i == 0:
-                return False
-        return True 
-    
-    
-    cacsonguyento = []
-    for i in a:
-        if songuyento(i):
-            cacsonguyento.append(i)
-    print("Các số nguyên tố trong list: ", cacsonguyento)
-
-    am = []
-    for i in a:
-        if i < 0:
-            am.append(i)
-    print("Các phần tử âm trong list: ", am)
-    print("Trung bình cộng các phần tử âm: ", sum(am)/len(am))
-    
-    duong = []
-    for i in a:
-        if i > 0:
-            duong.append(i)
-    print(f"Các phần tử dương trong list: {duong}")
-    print(f"Trung bình cộng các phần tử dương: {sum(duong)/len(duong)}")
-
-    print(f"Giá trị max trong list {max(a)}")
-    print(f"Giá trị min trong {min(a)}")
-    a.sort()
-    print(f"List sắp tăng dần: {a}")
-
-bai()
 
 
 
