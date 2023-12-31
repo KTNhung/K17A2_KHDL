@@ -17,6 +17,7 @@ def bai103():
     n = int(input("Nhập số: "))
     print((math.pow(x,2)+1)*n)
 
+
 def bai104():
     import math
     x = int(input("Nhập số: "))
