@@ -64,6 +64,7 @@ def bai92():
     print("Năm", x, "lịch âm là năm", tinh_can(x),tinh_chi(x) )
 
 
+
 def bai93():
     def BMI(can_nang, chieu_cao):
         return can_nang/(chieu_cao * chieu_cao)
